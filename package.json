@@ -1,5 +1,5 @@
 {
-  "name": "exemplo",
+  "name": "protractor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "android": "protractor protractor.android_conf.js",
     "spec": "protractor protractor.specs_conf.js"
   },
-  "author": "",
+  "author": "Danilo Policarpo",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
