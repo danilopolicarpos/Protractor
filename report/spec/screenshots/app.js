@@ -189,6 +189,29 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "007b00e1-00cf-0024-00fc-008e00ba008a.png",
         "timestamp": 1541428594693,
         "duration": 1243
+    },
+    {
+        "description": "should add one and two|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 95972,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.77"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://juliemr.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1541435570409,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "004a00c8-0077-0064-00b1-0049003c00ef.png",
+        "timestamp": 1541435569206,
+        "duration": 1906
     }
 ];
 
