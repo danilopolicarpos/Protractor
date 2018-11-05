@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Como um QA curioso\nQuero fazer uma busca no google\nPara analisar o uso do protractor",
+    "keyword": "Funcionalidade",
+    "name": "Google",
+    "line": 3,
+    "id": "google",
+    "tags": [
+      {
+        "name": "@runThis",
+        "line": 2
+      }
+    ],
+    "uri": "features/scenarios/home.feature",
+    "elements": [
+      {
+        "id": "google;realizar-uma-busca-no-google",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Realizar uma busca no Google",
+        "tags": [
+          {
+            "name": "@runThis",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que eu esteja na pagina inicial do google",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "Realizar uma busca",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "vejo o resultado da pesquisa",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
