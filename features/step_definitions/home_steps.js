@@ -6,22 +6,25 @@ chai.use(chaiAsPromised);
 const expect = chai.expect;
 const { Given, Then, When } = require('cucumber');
 
-const Home = require('../pages/home_page.js');
+const Home_Page = require('../pages/home_page.js');
+const home = new Home_Page();
+const protractorHelper = require("protractor-helper");
 
-Given('que eu esteja na pagina inicial do google', function () {
+Given('que eu esteja na pagina inicial do google',  async function () {
   browser.get("/")
+  await expect(home.logo.isPresent()).to.eventually.be.true
 });
 
 
-When('Realizar uma busca', function () {
-  const home = new Home();
-  home.pesquisa();
-});
-
-
-Then('vejo o resultado da pesquisa', function () {
-  expect(element(by.id('#rso')).isPresent())
+When('Realizar uma busca', async function () {
+  await expect(home.input_field.isPresent()).to.eventually.be.true
+  await home.pesquisa('protector')
   
+});
+
+
+Then('vejo o resultado da pesquisa', async function () {
+  await expect(home.input_field.isPresent()).to.eventually.be.true
 });
 
 

@@ -32,11 +32,11 @@
             "line": 10,
             "name": "que eu esteja na pagina inicial do google",
             "match": {
-              "location": "features/step_definitions/home_steps.js:11"
+              "location": "features/step_definitions/home_steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1679000000
             }
           },
           {
@@ -45,11 +45,11 @@
             "line": 11,
             "name": "Realizar uma busca",
             "match": {
-              "location": "features/step_definitions/home_steps.js:16"
+              "location": "features/step_definitions/home_steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 43000000
             }
           },
           {
@@ -58,10 +58,11 @@
             "line": 12,
             "name": "vejo o resultado da pesquisa",
             "match": {
-              "location": "features/step_definitions/home_steps.js:22"
+              "location": "features/step_definitions/home_steps.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 32000000
             }
           }
         ]

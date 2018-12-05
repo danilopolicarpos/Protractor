@@ -18,6 +18,7 @@
     "cucumber-html-reporter": "^4.0.2",
     "protractor": "^5.4.1",
     "protractor-beautiful-reporter": "^1.2.5",
-    "protractor-cucumber-framework": "^4.2.0"
+    "protractor-cucumber-framework": "^4.2.0",
+    "protractor-helper": "^3.6.14"
   }
 }
