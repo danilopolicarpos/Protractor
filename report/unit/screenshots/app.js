@@ -274,6 +274,22 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "005e0079-0041-007c-006b-0007008e00c4.png",
         "timestamp": 1545151363213,
         "duration": 1241
+    },
+    {
+        "description": "should add one and two|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 84992,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "009400cd-0074-0005-0007-001500c200e1.png",
+        "timestamp": 1545152965460,
+        "duration": 1010
     }
 ];
 
