@@ -4,10 +4,13 @@ exports.config = {
     directConnect: true,
     framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['specs/spec.js'],
+    specs: ['unit/spec.js'],
 
     capabilities: {
-    browserName: 'chrome'
+    browserName: 'chrome',
+    chromeOptions: {
+       args: [ "--headless", "--disable-gpu", "no-sandbox", "--window-size=800,600"]
+       }
   },
 
   onPrepare: function() {

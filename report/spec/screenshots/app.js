@@ -212,6 +212,68 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "004a00c8-0077-0064-00b1-0049003c00ef.png",
         "timestamp": 1541435569206,
         "duration": 1906
+    },
+    {
+        "description": "should add one and two|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 69585,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://juliemr.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1545151267888,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00dc008c-004c-0055-0098-003200b5006b.png",
+        "timestamp": 1545151266629,
+        "duration": 1678
+    },
+    {
+        "description": "should add one and two|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 69964,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://juliemr.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1545151321442,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00c00070-00f9-0059-0030-00cb004d00c7.png",
+        "timestamp": 1545151320360,
+        "duration": 1499
+    },
+    {
+        "description": "should add one and two|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "Mac OS X",
+        "instanceId": 70323,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "005e0079-0041-007c-006b-0007008e00c4.png",
+        "timestamp": 1545151363213,
+        "duration": 1241
     }
 ];
 
