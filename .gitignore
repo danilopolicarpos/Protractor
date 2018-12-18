@@ -3,4 +3,6 @@
   report/e2e/tests_result/cucumber_report.html
     /report/unit/screenshots/app.js
     /report/unit/screenshots/combined.json
+    */report/unit/screenshots
     /report/unit/screenshots
+     .gitignore
