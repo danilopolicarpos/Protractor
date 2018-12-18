@@ -1,1 +1,3 @@
  /report/spec/screenshots
+ results.json
+  report/e2e/tests_result/cucumber_report.html

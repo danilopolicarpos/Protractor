@@ -6,7 +6,7 @@ chai.use(chaiAsPromised);
 const expect = chai.expect;
 const { Given, Then, When } = require('cucumber');
 
-const Home_Page = require('../pages/home_page.js');
+const Home_Page = require('../page_object/home_page.js');
 const home = new Home_Page();
 const protractorHelper = require("protractor-helper");
 
